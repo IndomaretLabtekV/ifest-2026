@@ -1,0 +1,2 @@
+v5_macro_f1,v9a_macro_f1,gain,rescues,rescue_precision,positive_outer_folds,worst_outer_gain,bootstrap_positive,bootstrap_lo,bootstrap_median,bootstrap_hi,validation_ok
+0.8946909330297752,0.8961602322140401,0.0014692991842648606,12,0.9166666666666666,5,-0.0024063157613571917,0.997,0.0003335059318911954,0.0013957077322630518,0.0027246344101122142,False

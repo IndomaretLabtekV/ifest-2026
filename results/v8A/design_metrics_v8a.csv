@@ -1,0 +1,2 @@
+rows,candidate_rows,rescues,candidate_positive_prevalence,candidate_roc_auc,candidate_average_precision,base_macro_f1,v8a_macro_f1,gain,rescue_precision,bootstrap_median_gain,bootstrap_ci_low_95,bootstrap_ci_high_95,bootstrap_positive_fraction,design_ok
+11548,550,92,0.48545454545454547,0.8608144413123172,0.8455743672216476,0.893166858131885,0.9072629243220439,0.014096066190158907,0.9130434782608695,0.014139706962446152,0.009829792348790237,0.018905383791826724,1.0,True

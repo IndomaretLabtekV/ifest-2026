@@ -1,0 +1,80 @@
+id,title,v1_meta_prob,v2_meta_prob,v3_blend_prob,graph_rule,forced_label,v1_label,v2_label,v3_label
+te00029,Bantu Cerdaskan Anak Perbatasan RI PNG  TNI Ubah Truk Jadi Perpustakaan,0.3584082143397415,0.8467562388816072,0.6269996278377676,semantic,-1,0,1,1
+te00084,Covid 19 di Jakarta Terus Melonjak  PDI P Minta Anies Lihat Langsung Ketidakpatuhan Warga,0.650049985253204,0.938590104043452,0.8087470505878405,semantic,-1,0,1,1
+te00100,Masih Ngegas  Kasus Aktif Corona di Jateng Tambah 1 098 Hari Ini,0.484803303036555,0.7593784199408748,0.635819617333931,semantic,-1,0,1,1
+te00119,Ridwan Kamil Dorong Masyarakat Tetap Produktif Saat Pandemi  Asal,0.9346450135212164,0.3688748878278846,0.6234714443898839,semantic,-1,1,0,1
+te00142,Mengenal Vaksin Sinovac yang Dipakai RI Basmi Covid 19,0.8348094654752376,0.5535714806757401,0.6801285738355141,semantic,-1,1,0,1
+te00152,Kemenag  667 Pasien Positif Covid 19 Jalani Isolasi di Asrama Haji Seluruh Indonesia,0.6362196473555523,0.7093804012135596,0.6764580619774563,semantic,-1,0,1,1
+te00172,Realisasi Anggaran Pemulihan Ekonomi Baru Rp286 3 Triliun,0.73689309290933,0.5232881936962417,0.6194103983421315,semantic,-1,1,0,1
+te00208,Menkes Singgung Omongan Bill Gates Bangun Sistem Senjata Luput Deteksi Virus kumparan com,0.9138096345394796,0.4085602103706315,0.6359224512466132,semantic,-1,1,0,1
+te00287,Was was Janji Manis Vaksin Corona,0.7221562875619495,0.5028066173904708,0.6015139689676363,semantic,-1,1,0,1
+te00320,KPK Saran Pengadaan Vaksin Corona Tak Langsung Jumlah Besar Kenapa,0.9648675742842966,0.965323922187552,0.9651185656310872,gated_title_different_content,0,1,0,0
+te00357,Tahun Depan Kemensos Bakal Tambah Jumlah dan Penerima Bansos,0.3183354932018604,0.6616843146369459,0.5071773449911574,semantic,-1,0,1,0
+te00425,Vaksin Corona Buatan AS Diklaim 95 Efektif Apa Bedanya dengan Vaksin Pfizer,0.9368809561305296,0.5330394171386813,0.7147681096850131,semantic,-1,1,0,1
+te00473,Tiga Pekan Bebas Corona  Selandia Baru Laporkan 2 Kasus Baru,0.9999999999915028,0.9996706016990208,0.9998188309306377,semantic,-1,0,1,1
+te00501,Surabaya Akan Ajukan Keberatan  Satgas COVID  PPKM Instruksi Wajib,0.4877059290011531,0.783776403988175,0.6505446902440152,semantic,-1,0,1,1
+te00558,Kapolda Kalteng Terima Kasih Sudah Terapkan Prokes Saat di TPS,0.853448208564406,0.5687538276828945,0.6968662990795746,semantic,-1,1,0,1
+te00595,Edy Rahmayadi Kirim Draf New Normal  Memang Terlambat,0.9665976307916796,0.588525994520756,0.7586582308426717,semantic,-1,1,0,1
+te00643,Update Virus Corona Dunia 11 Agustus 179 990 Kasus Baru Covid 19 pada Anak anak di Inggris,0.8715875276555755,0.3327433505682608,0.5752232302575524,semantic,-1,1,0,0
+te00656,Gugus Tugas Lacak 800 Kontak Erat Kasus Corona Gedung Sate,0.6012428318147993,0.785030173329609,0.7023258696479446,semantic,-1,0,1,1
+te00717,Disetujui BPOM  Vaksin Sinovac Mulai Dikirim ke 3 Wilayah di Riau,0.498665277621091,0.9635913800422587,0.7543746339527333,semantic,-1,0,1,1
+te00787,Media Sosial Korea Bagikan Klaim Palsu Terkait Obat Covid 19  Ini yang Benar,0.5618893819217775,0.6261733795710623,0.5972455806288842,semantic,-1,0,1,1
+te00827,Jangan Percaya Sebelum Baca Hunian Berkelas Cuma Rp 1 6 Jutaan Bulan,0.8941779608526099,0.9292139231533256,0.9134477401180037,semantic,-1,0,1,1
+te00834,Biden Amerika Akan Jadi Mitra Kuat Jaga Perdamaian,0.9644719408068207,0.9825740947247236,0.9744281254616673,gated_title_different_content,0,1,0,0
+te00836,Satgas Covid Peringatkan AS Masuki Fase Baru Pandemi Corona,0.4059348014824846,0.7863392236852019,0.6151572336939792,semantic,-1,0,1,1
+te00876,Kalimat Ini Membuat Warga Lamongan Dijerat UU ITE,0.398324590677351,0.6152026586863817,0.5176075280823179,semantic,-1,0,1,0
+te00907,Dinkes Lansia di Jakarta Mungkin Divaksin Pfizer Vaksinnya Tiba Maret 2021 kumparan com,0.8155280736099964,0.5688628829948652,0.6798622187716743,semantic,-1,1,0,1
+te01112,10 Protokol Ketat saat Liga Inggris Dimulai Lagi,0.9999999991451938,0.9994470699458592,0.9996958880855598,semantic,-1,0,1,1
+te01191,Pegawai KAI Daop 7 Madiun yang Positif Covid 19 di Frontliner,0.4868467987269068,0.6274207341919514,0.5641624632326814,semantic,-1,0,1,0
+te01197,Terawan Sebut Mayoritas Pegawai Positif Covid Sudah Sembuh,0.7149299453330992,0.3366163460899105,0.5068574657493454,semantic,-1,1,0,0
+te01201,Anies Diklarifikasi Polisi Wagub DKI Masyarakat Berspekulasi,0.2876410442838852,0.8497101115981139,0.5967790313067111,semantic,-1,0,1,1
+te01242,Cawalkot Depok Pradi Supriatna Nyoblos di TPS 15 Bareng Kedua Anaknya,0.1150360025960011,0.9750985060069732,0.5880703794720359,semantic,-1,0,1,1
+te01275,Otak atik APBN Demi Vaksin Corona Gratis,0.8769879105546198,0.3782814879304341,0.6026993781113177,semantic,-1,1,0,1
+te01285,Vietnam Lockdown Kota Kedua usai Laporan Kasus Corona,0.9475766734708472,0.5365541248645564,0.7215142717373872,semantic,-1,1,0,1
+te01361,Kemendikbud  14 Provinsi Siap Sekolah Tatap Muka  Jabar hingga Yogyakarta   kumparan com,0.4986931252198859,0.6836429784047451,0.6004155444715585,semantic,-1,0,1,1
+te01373,Penasihat Trump Positif Corona  Sempat Dampingi Debat Capres,0.4346194493094142,0.85365742311972,0.6650903349050824,semantic,-1,0,1,1
+te01402,Mimpi Bagyo  Ajak Semua Kalangan Lesehan di Balkot untuk Rembuk Solo,0.3172031609335004,0.8764864764480268,0.6248089844664899,semantic,-1,0,1,1
+te01470,Ngantor di Ruang Oval Gedung Putih  Biden Rombak Dekorasi Trump,0.7462145888900588,0.5608072475020011,0.6442405511266271,semantic,-1,1,0,1
+te01474,ITAGI Jelaskan Kenapa Ada Efek Lokal usai Disuntik Vaksin Sinovac kumparan com,0.8824150330986633,0.5613342519073374,0.7058206034434341,semantic,-1,1,0,1
+te01554,Lomba TikTok di Kafe Ini Dibubarkan Gegara Tak Patuh Protokol COVID 19,0.60951209596346,0.9060507696145286,0.7726083664715477,semantic,-1,0,1,1
+te01699,Pimpinan Ponpes di Banten Doakan Kabareskrim  Semoga Tugasnya Dimudahkan,0.4739305697515372,0.8274955217724439,0.6683912933630359,semantic,-1,0,1,1
+te01751,Stafsus Bantah Menag Fachrul Razi Kembali Positif COVID 19 Beliau Sehat,0.9471236927105812,0.9491935895102456,0.9482621359503967,gated_title_different_content,0,1,0,0
+te01756,Kemenag 667 Pasien Positif Covid 19 Jalani Isolasi di Asrama Haji Seluruh Indonesia,0.6362196473555523,0.7093804012135596,0.6764580619774563,semantic,-1,0,1,1
+te01799,Libur Nataru Bima Arya Kembali Batasi Operasional Mal dan Resto,0.3441591496850446,0.8707483032599552,0.6337831841512455,semantic,-1,0,1,1
+te01842,Menkes Jika RI Pesan Vaksin Corona Tunggu Izin Darurat Baru Dapat 2 Tahun Lagi kumparan com,0.8027509290807993,0.3794959867459901,0.5699607107966542,gated_title_different_content,0,1,0,0
+te01854,Menunda Pemberian Vaksin Dosis Kedua Bisa Picu Masalah Global,0.4463398304938581,0.9206766839734007,0.7072250999076066,semantic,-1,0,1,1
+te01864,Pengamat Nilai Positif Isu Reshuffle di Balik Marah Jokowi,0.8899925066329675,0.4020944294394135,0.6216485641765128,semantic,-1,1,0,1
+te01888,Bantu Cerdaskan Anak Perbatasan RI PNG TNI Ubah Truk Jadi Perpustakaan,0.3584082143397415,0.8467562388816072,0.6269996278377676,semantic,-1,0,1,1
+te01890,Walkot Semarang Larang Pelaku Wisata Restoran Gelar Perayaan Tahun Baru,0.4383888713393109,0.6789020420786068,0.5706711152459237,semantic,-1,0,1,0
+te01897,Epidemiolog Tingkat Serangan Corona Gresik Naik 75 Persen,0.7198068607282221,0.4168696209427833,0.5531913788462308,semantic,-1,1,0,0
+te01967,ITAGI Jelaskan Kenapa Ada Efek Lokal usai Disuntik Vaksin Sinovac   kumparan com,0.8824150330986633,0.5613342519073374,0.7058206034434341,semantic,-1,1,0,1
+te01981,Asal Klaim Obat Corona Covid 19 Berikut Sanksi yang Bisa Dikenakan,0.7930303718780501,0.5259535242225425,0.6461381056675211,gated_title_different_content,0,1,0,0
+te01995,Mal Tawarkan Diskon Demi Tarik Pengunjung di Tengah Corona,0.6669586131469323,0.544104575207596,0.5993888922802975,semantic,-1,1,0,1
+te02012,Jabar Hari Ini  Kades Mirip Jokowi Siswi SMP Dibunuh,0.6579059751650893,0.1115846550857299,0.35742924912144164,semantic,-1,1,0,0
+te02018,Apel Pengamanan Tahun Baru Danrem Riau Minta Tak Ada Pesta Kembang Api,0.4166557547390054,0.6583641004493314,0.5495953448796848,semantic,-1,0,1,0
+te02121,Kapolda Dicopot Gegara Prokes DPRD Jabar Harusnya Satgas Tanggung Jawab,0.8712907820519865,0.2573027310823043,0.5335973540186613,semantic,-1,1,0,0
+te02279,Hari Pertama PPKM di Surabaya Kapolda Jatim Sebut Mal Tertib,0.5928818039661414,0.7161761898763542,0.6606937162167585,semantic,-1,0,1,1
+te02311,Jasa Gotong Jenazah Corona di Bandung Jutaan Rupiah Pengelola TPU Itu Warga Bukan Kami,0.9313760878706212,0.9538892988619744,0.9437583539158655,gated_title_different_content,0,1,0,0
+te02369,Koordinasi Penanganan COVID 19 Whisnu Sakti Temui Gubernur Khofifah,0.506681477356265,0.955855685144866,0.7537272916399956,semantic,-1,0,1,1
+te02537,Es Krim Produk Lokal di China Terkontaminasi Virus Corona   kumparan com,0.7540455659991862,0.4771083654529541,0.6017301056987585,semantic,-1,1,0,1
+te02568,Cara Menggunakan Tisu Basah Antiseptik Agar Efektif Basmi Kuman,0.8994021298033646,0.2827280570513942,0.5602313897897809,semantic,-1,1,0,0
+te02644,Data Corona 14 Juni  ODP 41 Ribu  PDP 13 Ribu,0.9999999999976232,0.9998892857196476,0.9999391071447368,semantic,-1,0,1,1
+te02690,Buruan  Cuma Rp 6 Jutaan Bulan  Punya Rumah 2 Lantai Depan Stasiun LRT,0.4834826849939692,0.6020813277637445,0.5487119385173456,semantic,-1,0,1,0
+te02715,Bantuan Rp2 59 T Kemenang untuk 21 Ribu Pesantren Segera Cair,0.9455600514042776,0.5825700531519883,0.7459155523655185,semantic,-1,1,0,1
+te02736,Bawa Gugatan Pilkada ke MA Denny Indrayana Gandeng Eks Jubir KPK,0.7915425287167545,0.4540056668325757,0.6058972546804562,semantic,-1,1,0,1
+te02795,6 Kecamatan di Batam Jadi Zona Merah,0.3054348401886146,0.6358416614597527,0.4871585918877406,semantic,-1,0,1,0
+te02800,Studi Genetika Temukan Penyebab Sejumlah Orang Sakit Parah Akibat Corona,0.9121616944820689,0.5185520252285543,0.6956763763926359,semantic,-1,1,0,1
+te02811,Ini Alasan KPU Usul Debat II Pilwalkot Digelar di Luar Makassar,0.1840196759179309,0.617966377734401,0.4226903619169895,semantic,-1,0,1,0
+te02863,Tetua Adat Warga Baduy yang Ada di Perantauan Diperintahkan untuk Langsung Pulang,0.7921145130725088,0.9578848165191052,0.8832881799681369,gated_title_different_content,0,1,0,0
+te02904,Dapat SMS Blast  Plt Walkot Surabaya Whisnu 11 Pejabat Siap Divaksin Besok,0.3416145735750143,0.9096341947125568,0.6540253652006628,semantic,-1,0,1,1
+te02912,Tren Corona di AS Masih Tinggi Trump Gelar Kampanye Terbuka,0.954789546329692,0.9672410324447,0.9616378636929466,gated_title_different_content,0,1,0,0
+te02974,Di Tengah Pandemi  Minimal Ibu Hamil Kontrol Kandungan 7 Kali,0.7431866217793658,0.5873224299534182,0.6574613162750946,semantic,-1,1,0,1
+te02981,Jokowi ke Mendagri Kapolri soal Pilkada Tegakkan Aturan Disiplin Prokes,0.958818763142858,0.9789114197406787,0.9698697242716594,gated_title_different_content,0,1,0,0
+te03044,Gagal Jaga Jarak Konser Drive in The Chainsmokers Dikritik,0.917596744473579,0.9120043062891172,0.9145209034721251,gated_title_different_content,0,1,0,0
+te03067,Kontradiksi PSBB Jawa Sumatera di Tengah Hiruk pikuk Vaksin Covid,0.7115194751119961,0.5785613490918977,0.6383925058009421,semantic,-1,1,0,1
+te03144,Kata RSSA Malang soal Foto Pasien COVID 19 Tertahan di IGD yang Beredar,0.8881679077107947,0.5943583990630964,0.7265726779545607,semantic,-1,1,0,1
+te03215,Sopir Truk Demo Syarat Rapid Test Mandiri untuk Masuk Bali,0.6246271207180575,0.5998561563976202,0.6110030903418171,semantic,-1,0,1,1
+te03239,Bagaimana Saat Kapasitas RS Covid 19 Penuh  Ini Saran Epidemiolog,0.5609449026347458,0.8156409954141919,0.7010277536634413,semantic,-1,0,1,1
+te03440,Kata BPOM dan Kemenkes soal Klaim Obat Bisa Sembuhkan Covid 19,0.3080168329796147,0.7379051751878265,0.5444554211941313,semantic,-1,0,1,0
+te03444,Negatif Covid  Jumhur Hidayat Gus Nur Kembali Masuk Tahanan,0.759947748883229,0.1276850090344788,0.41220324196641644,semantic,-1,1,0,0
+te03600,Viral Bule Ajak WNA Pindah ke Bali di Masa Pandemi  Imigrasi  Saat Ini Tak Bisa,0.3583072401423973,0.6686522268325101,0.5289969828219594,semantic,-1,0,1,0

@@ -1,0 +1,102 @@
+{
+  "version": "v6b-counterfactual-span-factual-verifier",
+  "seed": 2026,
+  "n_folds": 3,
+  "epochs": 2,
+  "base_system": "frozen-v5-champion",
+  "model_name": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "model_revision": "b5113eb",
+  "model_source": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "binary_labels": {
+    "0": "UNSUPPORTED",
+    "1": "SUPPORTED"
+  },
+  "span_extraction": {
+    "max_spans": 6,
+    "high_idf_quantile": 0.8,
+    "numeric": true,
+    "polarity": true,
+    "high_idf_ngrams": "1-3"
+  },
+  "counterfactual_pairs": {
+    "similarity_min": 0.8,
+    "one_edit_only": true,
+    "max_changed_span_tokens": 3,
+    "mined_pairs": 601
+  },
+  "retrieval": {
+    "mask_target_from_query": true,
+    "window_words": 80,
+    "stride": 40,
+    "top_windows": 2,
+    "max_length": 320
+  },
+  "training": {
+    "row_batch_size": 4,
+    "grad_accum": 6,
+    "effective_weak_rows": 24,
+    "lr": 1e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.08,
+    "amp": true,
+    "data_parallel": true,
+    "synthetic": false,
+    "local_mil": false,
+    "all_residual_positives": true,
+    "loss_weights": {
+      "strong": 1.0,
+      "pair": 0.5,
+      "row_mil": 0.25
+    },
+    "pair_margin": 0.5
+  },
+  "validation": {
+    "pair_ranking_accuracy": 0.9470338983050848,
+    "crossfit_veto_precision": 0.0,
+    "crossfit_selected": 0,
+    "crossfit_corrected_negatives": 0,
+    "component_mean_v5": 0.8945147092914109,
+    "component_mean_v6b": 0.8945147092914109,
+    "component_mean_gain": 0.0,
+    "pseudo_wins": 0,
+    "pseudo_ties": 100,
+    "pseudo_losses": 0,
+    "pseudo_mean_gain": 0.0
+  },
+  "veto": {
+    "fold_thresholds": [
+      1.000001,
+      1.000001,
+      1.000001
+    ],
+    "final_median_gate": 1.000001,
+    "same_span_consensus_votes": 2,
+    "min_precision": 0.9,
+    "min_fold_precision": 0.8,
+    "min_test_vetoes": 1,
+    "max_test_vetoes": 30
+  },
+  "accepted": false,
+  "test_vetoes": 0,
+  "dataset_sha256": {
+    "train": "a4ba91606302455da8a9523906a25361d581ac15b108964cdb3ab6beb0adb5d8",
+    "test": "8e5de5bf53a50df87270dccdaba5ed0700d3729b5b03e4ce7724ac1769177005",
+    "sample_submission": "ea09389db317450c7b93da76d87b771daca79e66716b84b7432f1653a67582c6"
+  },
+  "frozen_artifact_sha256": {
+    "V2_OOF": "4e5fe37b48033f4fff85ecbbd569df0c991e9435f3c1330f68096dc2dbdb58d8",
+    "V2_TEST": "3d0fc35dc3525f755ac3a45270b5bd474f71090e1d77d9c1c666ba79762cab6e",
+    "V3_OOF": "a57f2ddab5848365ba90dc57da156e8752758fa0231534b118c8179226188a2d",
+    "V3_TEST": "7a7911d937746215ed29d50037ecfdbd84876bb95659fae6b308876a23a39578",
+    "V5_TEST": "56d692997afc57493c5b8a8ca8937f62c2bc27fff30ec252867ee95af24b3ecd",
+    "V5_SUBMISSION": "698790750562fda1dcc7eea78ac428d079312254b535f9aedf85fb240422dfdc"
+  },
+  "runtime": {
+    "torch": "2.10.0+cu128",
+    "transformers": "5.0.0",
+    "gpus": [
+      "Tesla T4",
+      "Tesla T4"
+    ]
+  }
+}

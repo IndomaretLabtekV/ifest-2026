@@ -1,0 +1,2 @@
+v5_macro_f1,v10a_oof_macro_f1,delta_macro_f1,oof_candidates,oof_rescues,rescue_precision,positive_outer_folds,worst_outer_gain,min_outer_precision,bootstrap_positive,bootstrap_ci_low,bootstrap_median,bootstrap_ci_high,test_candidates,test_rescues,oof_selection_rate,test_selection_rate,test_to_oof_rate_ratio,promoted
+0.8946909330297752,0.8986406548618995,0.0039497218321242755,672,40,0.85,6,0.0030528502421587334,0.8333333333333334,1.0,0.0018115266920708888,0.0039432397742960035,0.006239481753694676,110,1,0.05952380952380952,0.00909090909090909,0.15272727272727274,False

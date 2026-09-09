@@ -1,0 +1,50 @@
+{
+  "features": [
+    "v1_meta",
+    "v2_meta",
+    "v3_blend",
+    "global_e",
+    "global_n",
+    "global_c",
+    "local_pool_e",
+    "local_max_e",
+    "local_max_c",
+    "global_local_gap",
+    "title_len",
+    "content_len",
+    "log_content_len",
+    "token_coverage",
+    "bigram_coverage",
+    "number_missing_count",
+    "number_mismatch",
+    "negation_mismatch",
+    "content_le_128",
+    "content_le_256",
+    "content_le_512"
+  ],
+  "neural_features": [
+    "v1_meta",
+    "v2_meta",
+    "v3_blend",
+    "global_e",
+    "global_n",
+    "global_c",
+    "local_pool_e",
+    "local_max_e",
+    "local_max_c",
+    "global_local_gap"
+  ],
+  "static_features": [
+    "title_len",
+    "content_len",
+    "log_content_len",
+    "token_coverage",
+    "bigram_coverage",
+    "number_missing_count",
+    "number_mismatch",
+    "negation_mismatch",
+    "content_le_128",
+    "content_le_256",
+    "content_le_512"
+  ]
+}

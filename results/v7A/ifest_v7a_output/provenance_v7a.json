@@ -1,0 +1,16 @@
+{
+  "train_path": "/kaggle/input/competitions/penyisihan-ifest-2026-dac/train.csv",
+  "test_path": "/kaggle/input/competitions/penyisihan-ifest-2026-dac/test.csv",
+  "train_id_sha256": "9abdabdd6cda9baac679b5cf004572e02326859fc2b13caa37af32c335e6c94a",
+  "test_id_sha256": "e4763272ee9a832ad2141f979a48701222a6651550ba2a88cf6c89357094064c",
+  "frozen_blob_sha256": "e1480451c5d635d180201ae1957c75f6ec0383c99be9f5fb930928c824c29073",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.0.0",
+  "sklearn": "1.6.1",
+  "gpu_count": 2,
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "timestamp_utc": "2026-09-07T02:36:31.115999+00:00"
+}

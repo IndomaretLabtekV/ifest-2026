@@ -1,0 +1,4 @@
+residual_negatives,hard_negatives,negative_exposures,positive_sample,epoch_rows,effective_negative_fraction,fold,train_loss,seconds,optimizer_steps,val_rows,test_candidate_rows,threshold,calibration_rows,candidate_rows,selected,veto_precision,corrected_negatives,false_vetoes,fit_precision,fit_recall,candidate_auprc_raw
+322,95,417,1251,1668,0.25,0,0.5438836537998357,54.98197603225708,47,4798,2255,1.000001,7795,3892,0,,0,0,,0.0,0.02728962245486531
+350,83,433,1299,1732,0.25,1,0.5319991255371735,57.25767731666565,49,4807,2255,1.000001,7746,3941,0,,0,0,,0.0,0.025905043659140876
+308,98,406,1218,1624,0.25,2,0.5559919435969171,53.47215461730957,46,4792,2255,1.000001,7833,3854,0,,0,0,,0.0,0.016723314696507677

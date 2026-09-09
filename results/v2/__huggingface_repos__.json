@@ -1,0 +1,1 @@
+{"repos": [{"repoId": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7", "repoType": "model", "commitHash": "b5113eb38ab63efdd7f280f8c144ea8b13f978ce", "filePaths": ["spm.model", "tokenizer.json", "special_tokens_map.json", "tokenizer_config.json", "added_tokens.json", "model.safetensors", "config.json"]}]}

@@ -1,0 +1,62 @@
+{
+  "aggregate_metrics_v8b.csv": {
+    "bytes": 313,
+    "sha256": "55056005a008292155980e862c54c0aae723fff155a2a7f222fe1fb2bbcdb3b0"
+  },
+  "bootstrap_v8b.csv": {
+    "bytes": 7915,
+    "sha256": "efcd7ac212ffaf25dba31a6f4bdeeffbda0647bb8c8bc3ddc7a5aeb68c5e94bd"
+  },
+  "calibrator_folds_v8b.csv": {
+    "bytes": 1902,
+    "sha256": "48b6d25d5c10653a63a186232f71f0031b6d41c28517d8947552f5d537ce391a"
+  },
+  "changed_rows_v8b.csv": {
+    "bytes": 238,
+    "sha256": "f0efc50be5969ac85db6604ee95167bbcdb99bf9d9d84b86430a50a1a00f859e"
+  },
+  "config_v8b.json": {
+    "bytes": 1624,
+    "sha256": "880a14204b8aadfcdd4cdbd7774628c41c0e2af847c21d1da4d663772bc766ac"
+  },
+  "counterfactual_pairs_v8b.csv": {
+    "bytes": 1345493,
+    "sha256": "3a7d92817dea4604db534a67ca6a8d312780fda8b8e6ebafce20de61718cb0c0"
+  },
+  "outer_fold_metrics_v8b.csv": {
+    "bytes": 814,
+    "sha256": "f3cf775ac2cf0fd7c034c4bbc6baf44c92b3f488ef671c0a5ea39bb07f10a894"
+  },
+  "pair_metrics_v8b.csv": {
+    "bytes": 59058,
+    "sha256": "6430f99dbfb659afd751de50133c993ca8c7d4ed438ac08bb5a1e23ad610e792"
+  },
+  "pair_summary_v8b.csv": {
+    "bytes": 207,
+    "sha256": "000f1e635c0b758d11e3a3b4366105ead0b2300fa5a5000f39a3135422ce31fd"
+  },
+  "provenance_v8b.json": {
+    "bytes": 778,
+    "sha256": "cd151b7f73f0e014cc28af38b1cf33172aa392f0262737552850c75ea1f41915"
+  },
+  "split_registry_v8b.csv": {
+    "bytes": 244795,
+    "sha256": "b27ce3a637be41d3c6e91f043fe3e0632d601973a2ba156ef8f55e30ddfb0a25"
+  },
+  "submission_v5_fallback_DO_NOT_SUBMIT_AS_V8B.csv": {
+    "bytes": 36039,
+    "sha256": "698790750562fda1dcc7eea78ac428d079312254b535f9aedf85fb240422dfdc"
+  },
+  "test_candidate_scores_v8b.csv": {
+    "bytes": 4404,
+    "sha256": "29c88c86410a9c2567ac7afb895dfbe864252510a46834fd3a8c51ab3e37145c"
+  },
+  "train_candidate_scores_v8b.csv": {
+    "bytes": 40833,
+    "sha256": "e8eb1120ecc67f3da9deda82b222f333bc8b939ba7e3a89163b82793b575068d"
+  },
+  "training_history_v8b.csv": {
+    "bytes": 1427,
+    "sha256": "7e10b7a212d18a8ca5a3fefc317bc49bb2a5dff9e7c5d32631b23201d5b00a07"
+  }
+}

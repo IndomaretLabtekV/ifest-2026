@@ -1,0 +1,42 @@
+{
+  "version": "v9A",
+  "base": "V5",
+  "required_v4_rule": "v2_fallback",
+  "model_name": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "model_revision": "b5113eb",
+  "n_repeats": 2,
+  "n_outer_folds": 3,
+  "n_inner_folds": 2,
+  "epochs": 2,
+  "lr": 1.5e-05,
+  "max_length": 320,
+  "window_words": 110,
+  "top_windows": 3,
+  "semantic_top_fractions": [
+    0.2,
+    0.35,
+    0.5,
+    0.65
+  ],
+  "support_thresholds": [
+    0.5,
+    0.75,
+    0.95
+  ],
+  "contradiction_max": [
+    0.15,
+    0.25,
+    0.4
+  ],
+  "confidence_min": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "MIN_AGG_GAIN": 0.004,
+  "MIN_POSITIVE_OUTER_FOLDS": 5,
+  "MAX_ALLOWED_OUTER_DROP": -0.001,
+  "MIN_RESCUE_PRECISION": 0.75,
+  "MIN_BOOTSTRAP_POSITIVE": 0.975,
+  "promoted": false
+}

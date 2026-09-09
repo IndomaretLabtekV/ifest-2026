@@ -1,0 +1,68 @@
+{
+  "version": "v8b-guarded-semantic-rescue",
+  "base": "exact-frozen-v5",
+  "proposer": "exact-frozen-v8a",
+  "direction": "revert-subset-of-v8a-only",
+  "v8a_threshold": 0.5817181386596663,
+  "model_name": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "model_revision": "b5113eb",
+  "repeat_seeds": [
+    2026,
+    260908
+  ],
+  "folds": 3,
+  "training": {
+    "epochs": 2,
+    "lr": 1e-05,
+    "max_length": 320,
+    "window_words": 80,
+    "window_stride": 40,
+    "top_windows": 2,
+    "max_spans": 6,
+    "row_batch_size": 4,
+    "grad_accum": 6,
+    "strong_loss_weight": 1.0,
+    "pair_loss_weight": 0.5,
+    "row_mil_weight": 0.25
+  },
+  "calibrator": {
+    "type": "StandardScaler+LogisticRegression",
+    "C": 0.1,
+    "class_weight": "balanced",
+    "features": [
+      "neural_max_risk",
+      "neural_mean_risk",
+      "number_risk",
+      "polarity_risk",
+      "entity_risk",
+      "predicate_risk",
+      "number_alt_conflict",
+      "acronym_alt_conflict",
+      "polarity_alt_conflict",
+      "target_absent_ratio",
+      "retrieval_confidence",
+      "retrieval_floor"
+    ],
+    "min_revert_precision": 0.75,
+    "min_true_rescue_preservation": 0.9
+  },
+  "promotion": {
+    "min_gain": 0.002,
+    "min_nonnegative_outer_folds": 5,
+    "min_positive_outer_folds": 4,
+    "min_bootstrap_positive": 0.95,
+    "max_test_revert_fraction": 0.5,
+    "min_test_reverts": 1
+  },
+  "status": {
+    "validation_ok": false,
+    "coverage_ok": true,
+    "nontrivial": false,
+    "promoted": false
+  },
+  "test": {
+    "v8a_proposals": 18,
+    "guard_reverts": 0,
+    "final_changes_vs_v5": 18
+  }
+}

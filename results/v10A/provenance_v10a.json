@@ -1,0 +1,13 @@
+{
+  "train_path": "/kaggle/input/competitions/penyisihan-ifest-2026-dac/train.csv",
+  "test_path": "/kaggle/input/competitions/penyisihan-ifest-2026-dac/test.csv",
+  "sample_path": "/kaggle/input/competitions/penyisihan-ifest-2026-dac/sample_submission.csv",
+  "train_id_sha256": "9abdabdd6cda9baac679b5cf004572e02326859fc2b13caa37af32c335e6c94a",
+  "test_id_sha256": "e4763272ee9a832ad2141f979a48701222a6651550ba2a88cf6c89357094064c",
+  "train_data_sha256": "c68e4b85eed9fe29a03ce48d18fbe3890666cbe909e31edd9738e285107231ad",
+  "test_data_sha256": "1ba5a564f8fca088ee01226e14abc40efa953ef5fdabf47110c0a0d18ec058a8",
+  "frozen_artifact_sha256": "8f8893ed22a5094fcf758f922e9e3f1f113ac0610139c6dbd4fe4e567c1eaac7",
+  "frozen_v5_submission_sha256": "698790750562fda1dcc7eea78ac428d079312254b535f9aedf85fb240422dfdc",
+  "sklearn_version": "1.6.1",
+  "timestamp_utc": "2026-09-08T11:40:49.278842+00:00"
+}
