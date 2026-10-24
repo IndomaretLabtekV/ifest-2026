@@ -1,5 +1,0 @@
-id,title,v1_meta_prob,v2_meta_prob,v3_blend_prob,v2_global_e,v2_local_max_c,v2_graph_rule,v2_forced_label,v4_rule,v4_forced_label,v4_label,v5_label,rescue_reason
-te00907,Dinkes Lansia di Jakarta Mungkin Divaksin Pfizer Vaksinnya Tiba Maret 2021 kumparan com,0.8155280736099964,0.5688628829948652,0.6798622187716743,0.7005665103594462,0.944025178750356,semantic,-1,v2_fallback,-1,0,1,v3>=0.67_and_v2_global_e>=0.50
-te01474,ITAGI Jelaskan Kenapa Ada Efek Lokal usai Disuntik Vaksin Sinovac kumparan com,0.8824150330986633,0.5613342519073374,0.7058206034434341,0.9923027753829956,0.9319783449172974,semantic,-1,v2_fallback,-1,0,1,v3>=0.67_and_v2_global_e>=0.50
-te01967,ITAGI Jelaskan Kenapa Ada Efek Lokal usai Disuntik Vaksin Sinovac   kumparan com,0.8824150330986633,0.5613342519073374,0.7058206034434341,0.9923027753829956,0.9319783449172974,semantic,-1,v2_fallback,-1,0,1,v3>=0.67_and_v2_global_e>=0.50
-te03144,Kata RSSA Malang soal Foto Pasien COVID 19 Tertahan di IGD yang Beredar,0.8881679077107947,0.5943583990630964,0.7265726779545607,0.9935421148935952,0.9289161364237468,semantic,-1,v2_fallback,-1,0,1,v3>=0.67_and_v2_global_e>=0.50

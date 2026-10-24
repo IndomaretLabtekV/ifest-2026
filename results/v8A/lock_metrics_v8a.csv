@@ -1,2 +1,0 @@
-rows,candidate_rows,rescues,base_macro_f1,v8a_macro_f1,gain,rescue_precision,bootstrap_median_gain,bootstrap_ci_low_95,bootstrap_ci_high_95,bootstrap_positive_fraction,lock_ok
-2849,122,16,0.9011966641914663,0.906626640447401,0.005429976255934776,0.75,0.005285923762098577,-0.0019510565425033377,0.012827012831877217,0.921,True

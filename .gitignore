@@ -1,0 +1,10 @@
+# Competition data (download from Kaggle)
+data/
+
+# Caches and environments
+work/
+.venv/
+__pycache__/
+*.pyc
+catboost_info/
+.ipynb_checkpoints/

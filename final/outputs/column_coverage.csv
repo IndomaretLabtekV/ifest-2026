@@ -1,0 +1,103 @@
+column,role,univariate_AP,train_test_KS,group
+id,"key: HUC identity, never a model feature (target encoding cost -11 pts, see 08)",0.20385043959311266,,id
+to_id,"river network: normalised (case/whitespace), builds basin and up/downstream features",0.20400953472778705,0.11111111111111105,to_id
+origin_id,"key: random id, time order recovered from lag overlap (02); never a feature",0.2093150178407298,0.35635,origin_id
+month,"feature: parsed from mixed text/number, used raw and as sin/cos",0.20783681172946794,0.2558,month
+inc_aream2,feature: log area / population density / growth,0.20745957166536777,0.01695585124530874,inc_aream2
+cum_aream2,feature: log area / population density / growth,0.2135319830144824,0.011430695770804938,cum_aream2
+pop_dec_2000,feature: log area / population density / growth,0.1979295358515526,0.03901747655583976,pop_dec_2000
+pop_dec_2010,feature: log area / population density / growth,0.20194889430579036,0.03923884343305212,pop_dec_2010
+pop_dec_2020,feature: log area / population density / growth,0.2032445164906989,0.037525421707275464,pop_dec_2020
+pop_acs_2020,feature: log area / population density / growth,0.20272489752134648,0.03617684197046023,pop_acs_2020
+q_bf_inc_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.267601708448349,0.04567484008528788,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2627607299997167,0.04265035915854282,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2582787523735883,0.04202707442258341,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2537835425095266,0.042745680068434544,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.25021769720202675,0.049630914070523835,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.24688920520522456,0.04895410958904112,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.24403799461462866,0.060550410747903516,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2403994913370152,0.06654179206566346,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23688825936236624,0.06807831222184191,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23437938006947967,0.1021786416061512,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23265478187559022,0.09531908286540747,q_bf_inc_m3 (12 lags)
+q_bf_inc_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23284687972846432,0.07472344416027288,q_bf_inc_m3 (12 lags)
+q_qf_inc_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23761935791830666,0.06179472968378108,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23544898132388076,0.06527462743762241,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23228297027821038,0.06614453924914687,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23164695468562396,0.043324933709691205,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23031221735951737,0.08222219376867268,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.22717965986189845,0.07288820416524416,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.22646504424916422,0.07677574206755378,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2242752922981923,0.0688188832054561,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2220466497329093,0.05846915184678525,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.21677913300674845,0.09881020678458519,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2127299314793759,0.11654474963746486,q_qf_inc_m3 (12 lags)
+q_qf_inc_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20905978356819918,0.13884136724417506,q_qf_inc_m3 (12 lags)
+q_ws_cum_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.28178341793007106,0.039866888718080196,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2751160319665427,0.039622222222222225,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2692435133073803,0.04320756087142252,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.26515586463924434,0.032572338427388436,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2601154043209031,0.04063856984384334,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.25661957313722167,0.0592191126279864,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.25297762357263537,0.053749623674307245,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2500479188390673,0.05634880444064905,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.24669704245510482,0.06324992735663626,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.24331578413441038,0.09438843517010886,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.24008327729544116,0.09896462747778534,q_ws_cum_m3 (12 lags)
+q_ws_cum_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.23743348423732147,0.09337292110874207,q_ws_cum_m3 (12 lags)
+q_ir_wd_inc_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20712336409883073,0.05329877175025588,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2084617852488556,0.0461401742249552,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20980706414047426,0.015263084271579741,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.21037034760853862,0.011488796414852787,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20994077573635037,0.035563114754098346,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2092529642457983,0.03252131287297533,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2091856723268858,0.04900218467315243,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20848289469424994,0.036379466871061195,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2077510244293383,0.009135577169183562,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20667695559496035,0.024550469483568094,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20455347634895754,0.05188157714676689,q_ir_wd_inc_m3 (12 lags)
+q_ir_wd_inc_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20432124639429725,0.0726290376247759,q_ir_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20389252078220665,0.0017709705002137976,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2038595828357565,0.002212915884661215,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20389800399251365,0.002175576430401338,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20385541892796166,0.002710256410256462,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2038205541939434,0.0025451877833860825,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20392471618627478,0.002900051273286741,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20385134783814254,0.0030918424874007977,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20382799410594402,0.0015070035915853985,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20385457158351436,0.0030118389628113196,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2038011205212741,0.0023634544834059135,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2037968686564887,0.0025318216822111106,q_th_wd_inc_m3 (12 lags)
+q_th_wd_inc_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20387192663943113,0.0029286689419795175,q_th_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag0,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2067277053866671,0.021365087494665036,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag1,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20667699511352158,0.02289721557909119,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag2,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2065913420849818,0.02239274000683289,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag3,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20650873675162848,0.018642091358445523,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag4,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20654662848594818,0.017809817995385835,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag5,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20648601280232143,0.022004661089294775,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag6,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2064129211583981,0.01950203078238566,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag7,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2064636060050899,0.02177338854264499,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag8,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20660434528756547,0.016027217517748715,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag9,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.2069104822726775,0.017910882930578187,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag10,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20706597862730075,0.018848974709500976,q_ps_wd_inc_m3 (12 lags)
+q_ps_wd_inc_m3_lag11,feature source: repaired (04) then turned into scale-free anomalies and ratios,0.20725841490994368,0.01991279119378797,q_ps_wd_inc_m3 (12 lags)
+clim_median_now,"feature source: per-split climatology table, scale corrected (11)",0.23647723378234492,0.04074688128772641,clim_median_now
+clim_median_next,"feature source: per-split climatology table, scale corrected (11)",0.23231727493221782,0.05025103957075794,clim_median_next
+label,"target: = 1 iff ws_cum(t+1) <= 0.6 * clim_next (99.99% exact, see 03)",1.0,,label
+aux_noise_00,dropped: standardised noise,0.20449672945099007,0.011762575452716306,aux_noise_*
+aux_constant_01,dropped: constant 0 in train but -1/999 in test,,,aux_constant_*
+aux_twin_unit_02,"dropped: duplicates a lag column, and maps to a DIFFERENT family in train vs test",0.20704385152135907,0.7103493293091885,aux_twin_unit_*
+aux_junk_id_03,dropped: random reference text,,,aux_junk_id_*
+aux_fake_mm_04,used: backup copy of inc_aream2 (fills missing area),0.20720526135086026,0.01779678068410462,aux_fake_mm_*
+aux_noise_05,dropped: standardised noise,0.20443034455766368,0.012292018779342662,aux_noise_*
+aux_constant_06,dropped: constant 0 in train but -1/999 in test,,,aux_constant_*
+aux_twin_unit_07,"dropped: duplicates a lag column, and maps to a DIFFERENT family in train vs test",0.23361267068584532,0.7732944332662642,aux_twin_unit_*
+aux_junk_id_08,dropped: random reference text,,,aux_junk_id_*
+aux_fake_mm_09,used: backup copy of inc_aream2 (fills missing area),0.20733016729297354,0.017792689470154277,aux_fake_mm_*
+aux_noise_10,dropped: standardised noise,0.2038610796403859,0.00793993963782702,aux_noise_*
+aux_constant_11,dropped: constant 0 in train but -1/999 in test,,,aux_constant_*
+aux_twin_unit_12,"dropped: duplicates a lag column, and maps to a DIFFERENT family in train vs test",0.2570151269093305,0.1979986586183769,aux_twin_unit_*
+aux_junk_id_13,dropped: random reference text,,,aux_junk_id_*
+aux_fake_mm_14,used: backup copy of inc_aream2 (fills missing area),0.20722077413568113,0.017577598926894755,aux_fake_mm_*
+aux_noise_15,dropped: standardised noise,0.2046722060437045,0.007842152917505063,aux_noise_*
+aux_constant_16,dropped: constant 0 in train but -1/999 in test,,,aux_constant_*

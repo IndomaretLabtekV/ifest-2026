@@ -1,4 +1,0 @@
-fold,v5_macro_f1,v6_macro_f1,gain,vetoes,veto_precision_component,threshold,calibration_rows,candidate_rows,selected,veto_precision_threshold,corrected_negatives,false_vetoes,fit_precision,fit_recall
-0,0.8931351244849416,0.8931351244849416,0.0,0,,1.000001,7795,3892,0,,0,0,,0.0
-1,0.8904696231981388,0.8904696231981388,0.0,0,,1.000001,7746,3941,0,,0,0,,0.0
-2,0.8999393801911519,0.8999393801911519,0.0,0,,1.000001,7833,3854,0,,0,0,,0.0
